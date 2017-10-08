@@ -363,11 +363,55 @@ body {
 	font-weight:normal;
 	padding-left:15px;
 }
-.email {
+
+.email-fr {
 	margin-top:115px;
-	height:125px;
 	background-color:#fff;
+	padding-top:40px;
+	padding-bottom:40px;
 }
+
+.email-fr p {
+	color:#34404b;
+	font-style:italic;
+	padding-left:50px;
+	float:left;
+	margin-top:20px;
+}
+
+.email-fr p span {
+	color:#ff5912;
+	font-weight:bold;
+	font-size:18px;
+	font-style:normal;
+	padding-right:20px;
+}
+
+.email-fr .input-fr {
+	float:left;
+	margin-left:225px;
+	margin-top:20px;
+}
+
+.email-fr .input-fr i {
+	color:#ff5912;
+}
+
+.email-fr button {
+	padding:20px 30px;
+	background-color:#ff5912;
+	color:#fff;
+	border:none;
+	font-weight:bold;
+	cursor:pointer;
+	float:right;
+	margin-right:40px;
+}
+
+.email-fr .input-fr input {
+	border:none;
+}
+
 .contact-fr {
 	background-color:#fff;
 	margin-top:120px;
@@ -415,8 +459,6 @@ body {
 .contact-fr .info .contact-info i {
 	font-size:6px;
 }
-
-	
 
 
 
