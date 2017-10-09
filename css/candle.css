@@ -60,10 +60,10 @@ ul,li,a {
 	color:#999;
 }
 
-.menu-fr .menu-detail .menu li:first-child {
+.menu-fr .menu-detail .menu li:nth-child(2) {
 	background:linear-gradient(#6a8b53,#a0c471);
 }
-.menu-fr .menu-detail .menu li:first-child a{
+.menu-fr .menu-detail .menu li:nth-child(2) a{
 	color:#fff;	
 }
 .menu-fr .menu-detail .search-fr img{
