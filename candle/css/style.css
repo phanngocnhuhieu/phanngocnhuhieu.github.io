@@ -161,3 +161,39 @@ a {
 	width:100px;
 	height:45px;
 }
+
+/* Start About Page */
+
+.content {
+	background: url('../img/about-bg.png') no-repeat right bottom;
+}
+	
+.content .title {
+	font-weight:200;
+	margin-top:30px;
+}
+.content .tks {
+	color:#6a8c53;
+}
+.content .space {
+	padding-left:20px;
+}
+
+.title {
+	font-weight:normal;
+	font-size:25px;
+	font-style:italic;
+	color:#6a8c53;
+}
+
+.so-luoc {
+	border-bottom: 1px solid #efefef;
+	padding-bottom:10px;
+}
+
+.so-luoc .title {
+	margin-top:100px;
+	margin-right:20px;
+}
+
+/* End About Page */
