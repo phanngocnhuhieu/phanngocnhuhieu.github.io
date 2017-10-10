@@ -32,6 +32,8 @@ a {
 	background-color:#fff;
 	width:1020px;
 	margin:auto;
+	border-radius:10px;
+	margin-top:80px;
 } 
 
 .menu-fr {
@@ -50,8 +52,6 @@ a {
 .menu-fr .menu-detail .menu li {
 	border:solid 1px #CCC;
 	box-sizing:border-box;
-	width:145px;
-	height:70px;
 	float:left;
 	border-radius:5px;
 	background:linear-gradient(#CCC,#fff);	
@@ -67,13 +67,11 @@ a {
 	text-align:center;
 }
 
-.menu-fr .menu-detail .menu li {
-	padding-top:25px;
-}
-
 .menu-fr .menu-detail .menu li a{
 	font-size:16px;
 	color:#999;
+	display:block;
+	padding:25px 35px;
 }
 
 .menu-fr .menu-detail .menu li:first-child {
@@ -132,13 +130,13 @@ a {
 }
 
 .candle-fr .type .type-effect {
-	margin-top:20px;
-}
-
-.candle-fr .type .type-effect {
 	font-size:14px;
 	color:#3e5930;
 	margin-top:30px; 
+}
+
+.candle-fr .type .type-effect:nth-child(4) {
+	margin-top:20px;
 }
 
 .candle-fr .type .type-content {
@@ -150,7 +148,7 @@ a {
 	margin-top:40px;
 }
 
-.candle-fr .type button {
+.candle-fr .type a {
 	margin-top:30px;
 	font-size:14px;
 	color:#fff;
@@ -158,10 +156,15 @@ a {
 	border:none;
 	background:linear-gradient(#6a8b53,#a0c471);
 	border-radius:5px;
-	width:100px;
-	height:45px;
+	padding:15px 20px;
+	display:inline-block;
 }
 
+.green {
+	width:1020px;
+	margin-top:75px;
+	background:linear-gradient(#0F3,#FFF};
+}
 /* Start About Page */
 
 .content {
