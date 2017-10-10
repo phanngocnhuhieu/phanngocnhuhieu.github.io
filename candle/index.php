@@ -2,8 +2,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Candle</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<title>Candle-homepage</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css"/>
 </head>
 
 <body>
@@ -35,8 +35,14 @@
           <div class="clear"></div>
         </div>
         
-        
-      </div>
-    </div>
+        <?php
+					if (isset($_GET['page'])) {
+            echo "aa";
+          } else {
+            echo "bb";
+          }
+        ?>
+  	</div>
+	</div>   
 </body>
 </html>
