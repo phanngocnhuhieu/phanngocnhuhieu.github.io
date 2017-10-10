@@ -5,13 +5,8 @@
 	src: url(../fonts/VNF_Museo_Slab_500.ttf);
 }
 
-@font-face {
-	font-family: "Viettay";
-	src: url(../fonts/UNITapviet_0_ly.ttf);
-}
-
 body {
-	font-family: "Myriad Pro Regular";
+	font-family: "Museo";
 	background: linear-gradient(#6a8b53,#a0c471);
 }
 
