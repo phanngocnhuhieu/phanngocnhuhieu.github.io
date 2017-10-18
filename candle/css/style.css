@@ -69,7 +69,7 @@ a {
 
 .menu-fr .menu-detail .menu li a{
 	font-size:16px;
-	color:#999;
+	color:#9f9d9d;
 	display:block;
 	padding:25px 35px;
 }
@@ -166,29 +166,29 @@ a {
 }
 
 .green {
-	width:1020px;
-	background:#a0c471;
-	margin-top:0;
 }
 
 .green .final-info {
 	float:left;
 	font-size:15px;
 	color:#7f9562;
-	margin:35px 30px;
+	margin:35px 0;
 }
 
 .green .final-icon {
 	float:right;
 	margin-top:20px;
-	margin-right:25px;
+	
 	color:#7f9562;
 }
 /* Start About Page */
 
+.content-fr {
+	padding-bottom:70px;
+}
+
 .content {
 	background: url('../img/nengioithieu.jpg') no-repeat right bottom;
-	padding-bottom:70px;
 	margin-left:30px;
 }
 	
@@ -247,11 +247,11 @@ a {
 }
 
 .arrange-fr .arrange .arrange-title p,a:nth-child(2) {
-	color:#6a8b53;
+	color:#719246;
 }
 
 .arrange-fr .arrange .arrange-title:first-child a:nth-child(3) {
-	color:#6a8b53;
+	color:#719246;
 }
 
 .arrange-fr .arrange .arrange-title:first-child a:nth-child(2) {
@@ -268,4 +268,99 @@ a {
 	margin-right:45px;
 	margin-top:5px;
 }
+
+.product-fr {
+	width:940px;
+	margin:auto;
+}
+
+.product-fr .product-row {
+	margin-top:30px;
+}
+
+.product-fr .product-row .product {
+	float:left; 
+	margin-right:20px;
+}
+
+.product-fr .product-row .product:nth-child(4) {
+	margin-right:0;
+}
+
+.product-fr .product-row .product {
+	width:220px;
+	background:#e5e5e4;
+	border-radius:5px;
+}
+
+.product-fr .product-row .product .pr-name, 
+.product-fr .product-row .product .pr-content,
+.product-fr .product-row .product img,
+.product-fr .product-row .product a, 
+.product-fr .product-row .product p {
+	margin:0 15px;
+}
+
+.product-fr .product-row .product img {
+ 	margin-top:10px;
+}
+
+.product-fr .product-row .product .pr-name {
+	font-size:13px;
+	color:#6a8b53;
+	font-weight:bold;
+	margin-top:20px;
+}
+
+.product-fr .product-row .product .pr-content {
+	margin-top:5px;
+	font-size:12px;
+}
+
+.product-fr .product-row .product img:nth-child(4) {
+	margin-top:12px;
+}
+
+.product-fr .product-row .product p:nth-child(5) {
+	margin-top:12px;
+	font-size:14px;
+}
+
+.product-fr .product-row .product a{
+	margin-top:30px;
+	margin-bottom:10px;
+	font-size:14px;
+	color:#fff;
+	font-style:italic;
+	border:none;
+	background:linear-gradient(#6a8b53,#a0c471);
+	border-radius:5px;
+	padding:15px 20px;
+	display:inline-block;
+}
+
+.product-fr .page-number {
+	float:right;
+	margin:40px 0;
+}
+
+.product-fr .page-number li {
+	float:left;
+	margin-right:10px;
+}
+
+.product-fr .page-number li a{
+	font-size:18px;
+	font-weight:bold;
+	color:#a7a6a6;
+	border:1px solid #d6d3d3;
+	border-radius:5px;
+	background:linear-gradient(#ededec,#fff);
+	padding:5px 10px;
+}
+
+.product-fr .page-number li:nth-child(4){	
+	margin-right:0px;
+}
+
 /* End about Perfumed Page */
